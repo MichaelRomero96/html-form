@@ -1,0 +1,42 @@
+/* header  BEM*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #535768;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar__logo {
+    width: 100px;
+}
+
+.navbar__logo__img {
+    width: 200px;
+}
+
+.navbar__items__container {
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item {
+    margin: 0 10px;
+}
+
+li {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    /* hover */
+    list-style: none;
+}
+
+li:hover {
+    color: #5034FF;
+    background-color: #F0F3FF;
+    cursor: pointer;
+}
